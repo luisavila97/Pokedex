@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.App {
+  background-color: rgba(43, 41, 44, 255);
+  min-height: 100vh;
+}

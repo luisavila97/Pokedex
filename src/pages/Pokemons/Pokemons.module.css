@@ -1,0 +1,22 @@
+.pokemon {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid red;
+  border-radius: 50px;
+
+  margin-top: 50px;
+  padding-bottom: 20px;
+
+  background-color: wheat;
+}
+
+.pokemon h1 {
+  text-align: center;
+}
+
+.pokemon img {
+  height: 250px;
+  width: auto;
+}

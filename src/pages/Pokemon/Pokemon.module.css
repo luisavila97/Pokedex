@@ -1,0 +1,27 @@
+.pokemon div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: wheat;
+  height: 700px;
+}
+
+.pokemon h2 {
+  width: 350px;
+  font-size: 30px;
+}
+
+.pokemon h1 {
+  width: 350px;
+  font-size: 50px;
+}
+
+.pokemon img {
+  width: 350px;
+}
+
+.pokemon a {
+  position: fixed;
+  bottom: 200px;
+  left: 45%;
+}

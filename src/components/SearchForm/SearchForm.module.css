@@ -1,0 +1,41 @@
+.header {
+  background-color: rgba(213, 59, 71);
+  display: flex;
+  position: sticky;
+  top: 0;
+
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 2px 20px black;
+}
+
+.header div:first-child {
+  display: flex;
+  align-items: center;
+}
+.header img {
+  height: 70px;
+  padding-right: 15px;
+}
+
+.header h1 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.header p {
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.header input:first-child {
+  height: 25px;
+  width: 300px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border-color: transparent;
+}
+
+.header input:nth-child(2) {
+  margin-left: 50px;
+}
