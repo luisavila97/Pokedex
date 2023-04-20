@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   let pokemonArray = [];
-  for (let index = 1; index < 152; index++) {
+  for (let index = 1; index <= 898; index++) {
     pokemonArray.push(index);
   }
 
